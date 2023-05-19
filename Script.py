@@ -193,7 +193,6 @@ Nᴀᴍᴇ - {}"""
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
 <b>
-
 =========== • ✠ • ===========
 ▫️ ᴄʜᴀɴɴᴇʟ : @IPopcornchannel
 ▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @iPopcornGroup
