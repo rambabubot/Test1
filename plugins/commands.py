@@ -31,7 +31,7 @@ async def start(client, message):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
                     InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/4")
+                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/12")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -60,7 +60,7 @@ async def start(client, message):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
                     InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/4")
+                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/12")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -109,7 +109,7 @@ async def start(client, message):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
                     InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/4")
+                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/12")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
