@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = bool(environ.get('IS_VERIFY', True))
+IS_VERIFY = bool(environ.get('IS_VERIFY', False))
 VERIFY2_URL = environ.get('VERIFY2_URL', "greymatterslinks.in")
 VERIFY2_API = environ.get('VERIFY2_API', "78e1e16e5b5bfd96625c5f1101acb6b815965b90")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'greymatterslinks.in')
