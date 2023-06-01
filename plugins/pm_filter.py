@@ -71,10 +71,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text("<b> अगर आप मूवी या वेब सीरीज लेना चाहते हैं तो यहां पर क्लिक करें 👇🏻 </b>")
-  buttons = [ 
-                InlineKeyboardButton("📢 Movie Request Group 📢", url='https://t.me/+K7G6vLz76Ws4MzJl')
-   ],
-
+    await message.reply_text("<b> https://t.me/+K7G6vLz76Ws4MzJl </b>")
 
     await bot.send_message(
         chat_id=LOG_CHANNEL,
