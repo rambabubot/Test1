@@ -248,7 +248,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/4")
+        InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/12")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -361,7 +361,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/4")
+            InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/12")
         ])
 
         if offset != "":
@@ -1137,7 +1137,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
                     InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/4")
+                    InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/12")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1614,7 +1614,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/4")
+        InlineKeyboardButton('How To Opan Link', url="https://t.me/movielinkopan/12")
     ])
 
     if offset != "":
