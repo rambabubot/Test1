@@ -716,9 +716,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                              [
                               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                           ],[
-                              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/TechnoJay_bot")
-                             ]
+                           ],
                             ]
                         )
                     )
@@ -788,9 +786,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  [
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-               ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/TechnoJay_bot")
-                 ]
+               ],
                 ]
             )
         )
