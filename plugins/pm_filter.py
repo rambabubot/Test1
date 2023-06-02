@@ -68,9 +68,12 @@ async def pm_text(bot, message):
     content = message.text
     user = message.from_user.first_name
     user_id = message.from_user.id
-    if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b> अगर आप मूवी या वेब सीरीज लेना चाहते हैं तो यहां पर क्लिक करें 👇🏻 \n https://t.me/+K7G6vLz76Ws4MzJl \n https://t.me/+K7G6vLz76Ws4MzJl \n https://t.me/+K7G6vLz76Ws4MzJl </b>")
+    if content.startswith("/") or content.startswith("#"): return
+    if user_id in ADMINS: return
+    buttons = [[
+                InlineKeyboardButton("click here", url='https://telegram.me/+K7G6vLz76Ws4MzJl')
+            ]]
+    await message.reply_text("<b>अगर आप मूवी या वेब सीरीज लेना चाहते हैं तो यहां पर क्लिक करें 👇🏻</b>", reply_markup=InlineKeyboardMarkup(buttons))
     
     await bot.send_message(
         chat_id=LOG_CHANNEL,
